@@ -1,6 +1,9 @@
 # Наибольший Общий Делитель (НОД)
 
-Наибольшим общим делителем двух чисел a и b называется наибольшее число, на которое a и b делятся без остатка.
+Возращает наибольший общий делить (НОК) двух чисел a и b, на которое a и b делятся без остатка.  Например:
+```bash
+a = 4 и b = 14. НОК  = 4
+```
 
 ## Требования
 
@@ -12,9 +15,15 @@
 $ composer require maxim-tsikhonov/php-nod
 ```
 
+## Подключение
+
+```php
+use MaximTsikhonov\PhpNod\CalculationProcessor;
+```
+
 ## Использование 
 
 ```php
-$calculation = new CalcualtionProcessor();
+$calculation = new CalculationProcessor();
 echo $calculation->nod($num1, $num2);
 ```
