@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MaximTsikhonov\PhpNod;
 
-class СalculationProcessor
+class CalculationProcessor
 {
     public function nod(int $num1, int $num2): int
     {
