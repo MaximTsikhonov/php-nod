@@ -9,7 +9,7 @@
 ## Установка
 
 ```bash
-$ composer required 
+$ composer require maxim-tsikhonov/php-nod
 ```
 
 ## Использование 
