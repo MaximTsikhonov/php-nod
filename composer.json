@@ -1,0 +1,17 @@
+{
+    "name": "maxim-tsikhonov/php-nod",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MaximTsikhonov\\PhpNod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaximTsikhonov"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
